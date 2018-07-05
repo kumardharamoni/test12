@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+    image: comp
+    ports:
+     - "8090:80"
+    container_name: jenkins-conpose
