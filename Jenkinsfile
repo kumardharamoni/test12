@@ -22,9 +22,9 @@ node {
            /*sh 'pwd'*/
           /*sh 'kubectl get pods'*/
            /*sh 'whoami'*/
-           sh ' kubectl get pods' 
+           /*sh ' kubectl get pods' 
            sh 'kubectl get nodes'
-           sh 'kubectl get service'
+           sh 'kubectl get service'*/
         
     }
     stage('Build clean') {
